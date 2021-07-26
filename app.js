@@ -417,10 +417,15 @@
 
 
 
-
-
-
 // ------ CHAPTER 5 COMPLETED ------
+
+
+
+
+
+
+// ------ CHAPTER 6 - 9 Starts ------
+
 
 
 
@@ -586,6 +591,7 @@
 
 
 
+// ------ CHAPTER 6 - 9 COMPLETED ------
 
 
 
@@ -593,3 +599,312 @@
 
 
 
+
+
+
+// ------ CHAPTER 9 - 11 COMPLETED ------
+
+
+
+
+// task 1
+// var city = prompt('Enter Your City Name ?' );
+// if( city == 'karachi' || city == 'Karachi'){
+// alert('Welcome to city of Lights')
+// }
+// else{
+//     alert('Please enter valid city name.\nLike Karachi.')
+// }
+
+
+
+// task 2
+// var gender = prompt('Define your Gender Please ? \nMale or Female ?' );
+// if( gender == 'male' || gender == 'Male'){
+// alert('Good Morning Sir.')
+// }
+// else if( gender == 'female' || gender == 'Female'){
+// alert('Good Morning Ma’am.')
+// }
+// else{
+//     alert('Please enter valid Gender. \nLike Male or Female.')
+// }
+
+
+
+
+// task 3
+// var signal = prompt('Which Traffic Signal is showing now? \nRed , Yellow or Green ?' );
+// if( signal == 'red' || signal == 'Red'){
+// alert('Must Stop.')
+// }
+// else if( signal == 'yellow' || signal == 'Yellow'){
+// alert('Ready to move.')
+// }
+// else if( signal == 'green' || signal == 'Green'){
+// alert('Move now.')
+// }
+// else{
+//     alert('Please enter valid Signal Color. \nLike Red, Yellow or Green')
+// }
+
+
+
+// task 4
+// var fuel = +prompt('How many litres  of fuel you have now in your Car ?' );
+// if( fuel < 0.25 ){
+// alert('Please refill the fuel in your car')
+// }
+// else{
+//     alert('Not to worry :) \nKeep Enjoy Drive!')
+// }
+
+
+
+
+// task 5
+
+
+// var a = 4;
+
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// } 
+//  in this condition ... alert box is displayed.. becuase condition is true... 
+
+
+
+
+// var b = 82;
+
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// in this condition... alert box will not show, becuase b++ is equal to 82 on this line. after this line it will be equal to 83.
+
+
+
+
+// var c = 12;
+
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// this condition is not true, becuase c++ is equal to 12 on this stage. so, alert box will not show.
+
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// this condition is true, becuase c is equal to 13 on this stage. above we increment c. so, alert box will show.
+
+
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// this condition is not true, becuase ++c is equal to 14, but not less than 14 on this stage. so, alert box will not show.
+
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// this condition is true, becuase c is equal to 14 on this stage. above we increment c. so, alert box will show.
+
+
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+// here.. condition is true.. so alert box will show.. becuase.... total cost is equal to material cost + labor cost... 
+
+
+
+
+//  if (true){
+    // alert("True");
+    // }
+    // this alert box will show... but wo did not assign any variable or value in it...
+    
+    // if (false){
+    // alert("False");
+    // }
+    // this alert box will not show, becuase.. there is nothing to false..
+
+
+
+
+    //  if("car" < "cat"){
+        // alert("car is smaller than cat");
+        // }
+
+        // this alert box will show.. becuase... car is smaller than cat in ABC alphabets... it checks in ascending order... first comes car.. then cat comes... 
+
+
+
+
+    
+    
+
+
+
+
+// task 6
+
+// var mark1 = +prompt('Enter marks of First subject');
+// var mark2 = +prompt('Enter marks of Second subject');
+// var mark3 = +prompt('Enter marks of Third subject');
+// var totalmarks = +prompt('Enter Total Marks of these 3 Subjects');
+// var marksobt = mark1 + mark2 + mark3;
+
+// var per = ( marksobt / totalmarks ) * 100;
+// document.write('<h2>Marks Sheet</h2>')
+// if (per >= 80) {
+//     document.write('Total Marks: ' + totalmarks + '<br>')
+//     document.write('Marks Obtained: ' + marksobt + '<br>')
+//     document.write('Percentage: ' + per + '%<br>')
+//     document.write('Grade: ' + 'A-one' + '<br>')
+//     document.write('Remarks: ' + 'Excellent' + '<br>') 
+// }
+
+// else if (per >= 70) {
+//     document.write('Total Marks: ' + totalmarks + '<br>')
+//     document.write('Marks Obtained: ' + marksobt + '<br>')
+//     document.write('Percentage: ' + per + '%<br>')
+//     document.write('Grade: ' + 'A' + '<br>')
+//     document.write('Remarks: ' + 'Good' + '<br>') 
+// }
+
+// else if (per >= 60) {
+//     document.write('Total Marks: ' + totalmarks + '<br>')
+//     document.write('Marks Obtained: ' + marksobt + '<br>')
+//     document.write('Percentage: ' + per + '%<br>')
+//     document.write('Grade: ' + 'B' + '<br>')
+//     document.write('Remarks: ' + 'You need to improve' + '<br>') 
+// }
+
+// else {
+//     document.write('Total Marks: ' + totalmarks + '<br>')
+//     document.write('Marks Obtained: ' + marksobt + '<br>')
+//     document.write('Percentage: ' + per + '%<br>')
+//     document.write('Grade: ' + 'Fail' + '<br>')
+//     document.write('Remarks: ' + 'Sorry' + '<br>') 
+// }
+
+
+
+
+
+
+
+// task 7
+
+// var num = 3;
+// var guess = +prompt('Enter the Secret Number Between 1 to 10')
+
+// if(guess == 3){
+//  document.write('Bingo! Correct Answer')
+// }
+// else if(guess > 10 || guess < 1){
+//  alert('Please Enter Value Between 1 to 10.')
+// }
+// else if(guess == ++num){
+//  alert('Close Enough to the Correct Answer')
+// }
+// else{
+//     document.write('Try Again Please!')
+
+// }
+
+
+
+
+// task 8
+// var num = +prompt('Enter any Number to check whether it is Divisible by 3 or not.')
+
+// var a = num%3;
+// if (a==0){
+// document.write('Yes! ' + num + ' is Divisible by 3.')
+// }
+// else{
+// document.write('No! ' + num + ' is not Divisible by 3.')
+// }
+
+
+
+// task 9
+// var num = +prompt('Enter any Number to check whether it is Even or Odd.')
+
+// var a = num%2;
+// if (a==0){
+// document.write(num + ' is an Even Number.')
+// }
+// else{
+// document.write(num + ' is an Odd Number.')
+// }
+
+
+
+
+
+// task 10
+// var t = +prompt('Enter the temprature');
+
+// if (t > 40){
+// document.write('It is too hot outside.')
+// }
+
+// else if (t > 30){
+// document.write('The Weather today is Normal.')
+// }
+
+// else if (t > 20){
+// document.write("Today's Weather is Cool.")
+// }
+// else{
+// document.write("OMG! Today's Weather is so Cool.")
+// }
+
+
+
+
+// task 11
+// var a = +prompt('Enter First Number');
+// var b = +prompt('Enter Second Number');
+// var c = prompt('Enter Operation You Want to do ?');
+
+// if(c == '+'){
+// document.write(a+b)
+// }
+
+// else if(c == '-'){
+// document.write(a-b)
+// }
+
+// else if(c == '*'){
+// document.write(a*b)
+// }
+
+// else if(c == '/'){
+// document.write(a/b)
+// }
+
+// else if(c == '%'){
+// document.write(a%b)
+// }
+
+// else {
+// alert('Please try again')
+// }
+
+
+
+
+
+
+
+
+
+// ------ Chapter 9 to 11 COMPLETED ------ 
