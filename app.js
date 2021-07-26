@@ -908,3 +908,408 @@
 
 
 // ------ Chapter 9 to 11 COMPLETED ------ 
+
+
+
+
+// --------- Chapter 12 to 13 Startsssss -------
+
+
+
+
+
+
+// task 1
+
+// var a = prompt('Enter any alphabet or Number')
+// if ( a.charCodeAt() >= 65 && a.charCodeAt() <= 90  ){
+//     document.write("It is an Uppercase Alphabet")
+// }
+
+// else if ( a.charCodeAt() >= 97 && a.charCodeAt() <= 122  ){
+//     document.write("It is Lowercase Alphabet")
+// }
+
+// else if ( a <= 0 || a >= 0  ){
+//     document.write("It is Number.")
+// }
+
+// else{
+//     document.write('Did not Verified')
+// }
+
+
+
+
+
+// task 2
+// var a = +prompt('Enter First number');
+// var b = +prompt('Enter Second number');
+
+// if (a > b) {
+//     document.write(a +' is Greater than ' + b)
+// }
+
+// else if (a == b) {
+//     document.write(a +' is Equal to ' + b)
+// }
+
+// else{
+//     document.write(a +' is Less than ' + b)
+// }
+
+
+
+
+// task 3
+// var a = +prompt('Enter First number');
+
+// if (a > 0) {
+//     document.write(a +' is a Positive Number.')
+// }
+
+// else if (a < 0 ) {
+//     document.write(a +' is a Negative Number.')
+// }
+
+// else{
+//     document.write(a +' is Zero')
+// }
+
+
+
+// task 4
+// var a = prompt('Enter Any Alphabet (Only One)');
+
+// if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U' ) {
+//     document.write(a +' is a Vowel Alphabet.')
+// }
+
+// else{
+//     document.write(a +' is not a Vowel.')
+// }
+
+
+
+
+// task 5 
+// var pass = 'abcdef';
+// var pass2 = prompt('Enter Your Password Here.')
+// if (pass2 == pass) {
+//     alert('Correct!');
+// }
+
+// else if (pass2 == '' ) {
+//     alert('Please Enter Any Password');
+// }
+
+// else{
+//     alert('Incorrect Password.')
+// }
+
+
+
+
+// task 6
+
+// Fix this Statement...!
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else {
+// greeting = "Good evening";
+// }
+
+
+
+
+
+
+// Task 7
+// var time = +prompt('Please Enter Time in 2400 Format.\nLike 1900.');
+
+// if (time >= 0000 && time < 1200 ) {
+//     document.write('Good Morning!')
+// }
+
+// else if (time >= 1200 && time < 1700 ) {
+//     document.write('Good Afternoon!')
+// }
+
+// else if (time >= 1700 && time < 2100 ) {
+//     document.write('Good Evening!')
+// }
+
+// else if (time >= 2100 && time < 2359 ) {
+//     document.write('Good Night!')
+// }
+
+// else {
+//     document.write('Enter Correct Time Please!')
+// }
+
+
+
+
+
+
+
+// -------- Chapter 12 - 13 Completed ----------
+
+
+
+
+
+
+
+
+
+
+// -------- Chapter 14 - 16 Starts ----------
+
+
+// task 1
+// const students = [];
+
+
+// task 2
+// var students2 = {}
+
+
+// task 3 
+// var names = ['asad', 'ali', 'ahmed', 'khan'];
+
+
+// task 4
+// var num = [1,2,3,4,5,6,7,8];
+
+
+// task 5
+// var booleanArray = [true, false, true, true];
+
+
+
+// task 6
+// var MixedArray = ['Hasnain', 'Raza', true, 1, 2, 4, 6];
+
+
+
+// task 7
+// var edu = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil.', 'Ph.D']
+// document.write('<h2> Qualifications </h2>')
+
+// document.write('<ol>')
+// var a=0;
+// for(a=0; a <= edu.length-1; a++){
+// document.write('<li>' + edu[a] + '</li>' )
+// }
+// document.write('</li>')
+
+
+
+
+// task 8
+
+// var students = ['Michael', 'John', 'Tony'];
+// var scores = [320, 230, 480];
+// var a = 0;
+
+// for (a = 0; a <= students.length - 1; a++){
+// document.write('Score of &nbsp' + students[a] + ' is ' + scores[a] + '. Percentage: ' + scores[a] / 500 * 100 + '%<br>');
+// }
+
+
+
+
+// task 9
+
+
+// const colors = ['red', 'green', 'blue', 'grey', 'white' + '<br>' ]
+
+// document.write(colors)
+
+// colors.unshift(prompt('Which color you want to add in the beginning of the list ?'));
+// document.write(colors.join(' - ') + '<br>');
+
+
+// // var b = ;
+// colors.push(prompt('Which color you want to add in the beginning of the list ?'));
+// document.write(colors.join(' - ') + '<br>');
+
+
+
+
+
+// task 10
+
+// var score = [320, 230, 480, 120]
+// document.write('Scores of Students : ' + score + '<br>')
+// document.write('Ordered Scores of Students : ' + score.sort())
+
+
+
+// task 11
+// var cities = ['Karachi', 'Lahore', 'Islamabad', 'Quetta', 'Peshawar'];
+// var selectedCities = cities.slice(2,5)
+// document.write('Cities list: <br>' + cities +'<br>');
+// document.write('<br>');
+// document.write('Selected cities list: <br>' + selectedCities +'<br>');
+
+ 
+
+
+// task 12
+// var arr = ['This', 'is', 'my', 'cat'];
+// document.write('Array: <br>')
+// document.write(arr.join())
+
+// document.write('<br>')
+// document.write('<br>')
+
+
+// document.write('String: <br>')
+// document.write(arr.join(' '))
+
+
+
+
+
+
+
+// task 13 
+
+// var devices = ['keyboard', 'mouse', 'printer', 'moniter']
+
+// document.write('Devices: <br>')
+// document.write(devices.join())
+// document.write('<br>')
+// document.write('<br>')
+
+// var a=0;
+// for(a=0; a <= devices.length-1; a++){
+// document.write('Out:<br>' + devices[a] + '<br>' )
+// }
+
+
+
+
+
+
+// task 14 
+
+// var devices = ['keyboard', 'mouse', 'printer', 'moniter']
+
+// document.write('Devices: <br>')
+// document.write(devices.join())
+// document.write('<br>')
+// document.write('<br>')
+
+// var a=0;
+// devices2 = devices.reverse();
+// for(a=0; a <= devices.length-1; a++){
+// document.write('Out:<br>' + devices2[a] + '<br>' )
+// }
+
+
+
+
+
+
+
+// task 15
+// var mobile = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier' ]
+
+// document.write("<select>" + '<br>');
+// var a = 0;
+//  for(a=0; a<=mobile.length - 1; a++){       
+// document.write("<option>" + mobile[a] + "</option> " + '<br>');
+// }
+// document.write('</select>' + '<br>');
+
+
+
+
+
+
+// ------ Chapter 14 to 16 Completed ----- 
+
+
+
+
+
+
+
+
+//  ---------------------------------------------------------------------
+
+
+
+
+
+
+// --------- Exercise 1 Starts -----------
+
+
+
+
+
+
+// task 1
+// comments can make code readable.
+
+
+// task 2
+// var variable1 = 'hello';
+// var variable2 = true;
+// var variable3;
+// var variable4 = null;
+
+
+
+// task 3
+// var a, b, c, d;
+
+
+
+// task 4
+// var a = 'hello';
+// var b = 123;
+// var c = ['hello', 'Ali', 'Asad', 'Khan'];
+// var d = { firstname : 'ali', lastname : 'khan' }
+
+
+
+// task 5 
+// var fname = 'Hasnain';
+// var lname = 'Gaho';
+// var marital_status = 'unmarried';
+// var country = 'Pakistan';
+// var age = 25;
+
+
+
+//task 6
+// var fname = 'Hasnain' , lname = 'Gaho' , marital_status = 'unmarried', country = 'Pakistan',  age = 25;
+
+
+
+
+// task 7
+// var myAge = 25;
+// var yourAge = 30;
+
+// console.log('I am ' + myAge + ' years old. ')
+// console.log('You are ' + yourAge + ' years old.')
+
+
+
+
+
+
+
+// --------- Exercise 1 Completed -----------
+
+
