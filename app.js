@@ -1,3 +1,12 @@
+
+
+// OPEN with thirdfile.html for Better Experience :)
+
+
+
+
+
+
 // Assignment 1 to 16 Chapters
 
 
@@ -1124,20 +1133,43 @@
 
 
 
+
+
+
 // task 9
 
 
-// const colors = ['red', 'green', 'blue', 'grey', 'white' + '<br>' ]
-
-// document.write(colors)
-
-// colors.unshift(prompt('Which color you want to add in the beginning of the list ?'));
-// document.write(colors.join(' - ') + '<br>');
+// var colors = ['red', 'green', 'blue', 'grey', 'white' + '<br>' ]
+// document.write('We Define an Array' + '<br>' + colors.join(' - ') + '<br>');
 
 
-// // var b = ;
-// colors.push(prompt('Which color you want to add in the beginning of the list ?'));
-// document.write(colors.join(' - ') + '<br>');
+// colors.unshift(prompt('Add Color in the beginning of the list ?'));
+// document.write('We add Color in the beginning of the list:' + '<br>' + colors.join(' - ') + '<br>');
+
+// colors.push(prompt('Add Color at the End of the list ?'));
+// document.write('We add Color at the End of the list:' + '<br>' + colors.join(' - ') + '<br>');
+
+
+// colors.unshift(prompt('Tell us First Color You Want to Add in the Beginning ?'));
+// colors.unshift(prompt('Tell us Second Color You Want to Add in the Beginning ?'));
+// document.write('You add 2 Colors in the Beginning of this Array' + '<br>' + colors.join(' - ') + '<br>');
+
+// colors.shift(colors);
+// document.write('We Remove one Color From Begining' + '<br>' + colors.join(' - ') + '<br>');
+
+// colors.pop(colors);
+// document.write('We Remove one Color From the End' + '<br>' + colors.join(' - ') + '<br>');
+
+
+// colors.splice(+prompt('write here the Index Number where you want to add the colors?'), 0, prompt('Which Color you want to add in this index.')  );
+// document.write('You Add Color in your Index number in Array' + '<br>' + colors.join(' - ') + '<br>');
+
+
+// colors.splice(+prompt('At which index you want to delete the colors?'), +prompt('How many colors you want to delete ?')  );
+// document.write('You Deleted Some Colors from your Index number in Array' + '<br>' + colors.join(' - ') + '<br>');
+
+
+
 
 
 
@@ -1313,3 +1345,263 @@
 // --------- Exercise 1 Completed -----------
 
 
+
+
+
+
+// --------- Exercise 2 Starts -----------
+
+
+
+// task 1
+
+// var first_Name = 'Hasnain';
+// var last_Name = 'Gaho';
+// var country = 'Pakistan';
+// var city = 'Hyderabad';
+// var age = 25;
+// var isMarried = false;
+// var year = 2021;
+
+// document.write(typeof first_Name + '<br>');
+// document.write(typeof last_Name + '<br>');
+// document.write(typeof country + '<br>');
+// document.write(typeof city + '<br>');
+// document.write(typeof age + '<br>');
+// document.write(typeof isMarried + '<br>');
+// document.write(typeof year + '<br>');
+
+
+
+
+// task 2
+
+// var a = '10';
+// var b = 10;
+// if (a == b) {
+//     document.write(a +' is equal to ' + b)
+// } else {
+//     document.write(a +' isn\'t equal to ' + b)
+// }
+
+
+
+
+
+// task 3
+
+// var a = '10';
+// var b = 10;
+// if (a == b) {
+//     document.write(a +' value is equal to ' + b + '<br>')
+// } else {
+//     document.write(a +' value isn\'t equal to ' + b+ '<br>')
+// }
+
+// if (typeof a == typeof b) {
+//     document.write(' both variables are of same type. <br>')
+// } else {
+//     document.write(' both variables aren\'t of same type. <br>')
+// }
+
+
+
+
+
+// task 4
+
+// var a = 2;
+// var b = 4;
+// var c = 6;
+
+
+// document.write('TRUE CONDITIONS: <br>')
+// document.write(' <br>')
+
+
+// if(a == b/2){
+//     document.write('this condition is true <br>')
+// }
+// else{
+//     document.write('this condition is false')
+// }
+
+// if(a*2 == b){
+//     document.write('this condition is also true <br>')
+// }
+// else{
+//     document.write('this condition is false')
+// }
+
+// if(a*3 == c){
+//     document.write('this condition is also true <br>')
+// }
+// else{
+//     document.write('this condition is false')
+// }
+
+// document.write(' <br>')
+
+// document.write('FALSE CONDITIONS: <br>')
+// document.write(' <br>')
+
+// if(a == b/3){
+//     document.write('yes this condition is true <br>')
+// }
+// else{
+//     document.write('this condition is false <br>')
+// }
+
+// if(a*2 == b/2){
+//     document.write('yes this condition is also true <br>')
+// }
+// else{
+//     document.write('this condition is also false <br>')
+// }
+
+// if(a*3 == b){
+//     document.write('yes this condition is also true <br>')
+// }
+// else{
+//     document.write('this condition is also false <br>')
+// }
+
+
+
+
+
+// task 5
+
+// console.log(4 > 3)
+// console.log(4 >= 3)
+// console.log(4 < 3)
+// console.log(4 <= 3)
+// console.log(4 == 4)
+// console.log(4 === 4 )
+// console.log(4 != 4 )
+// console.log(4 !== 4 )
+// console.log(4 != '4')
+// console.log(4 == '4')
+// console.log(4 === '4')
+
+
+
+
+
+// task 6
+// var base = +prompt('Enter the Base of the Triangle.')
+// var height = +prompt('Enter the Height of the Triangle.')
+// var area = 0.5 * base * height;
+
+// document.write('Area of the Triangle is : ' + area);
+
+
+
+
+// task 7
+
+// var a = +prompt('Enter Side A: ')
+// var b = +prompt('Enter Side B: ')
+// var c = +prompt('Enter Side C: ')
+
+// var peri= a + b + c;
+
+// document.write('The Perimeter of the Triangle is : ' + peri);
+
+
+
+
+
+
+// task 8
+
+// var hours = +prompt('Enter Hours: ')
+// var rate = +prompt('Enter rate per hour: ')
+
+// var earning= hours * rate;
+
+// document.write('Your weekly earning is : ' + earning);
+
+
+
+
+
+
+// --------- Exercise 2 Completed -----------
+
+
+
+
+
+
+// --------- Exercise 3 Starts -----------
+
+
+
+
+// task 1
+
+// var age = +prompt('Enter Your Age: ');
+// var limit = 18 - age ;
+
+// if (limit <= 0){
+// document.write('You are old enough to drive.');
+// }
+//  else {
+// document.write('You are left with ' + limit + ' years to drive.');
+// }
+
+
+
+
+// task 2
+
+// var num = +prompt('Enter any Number to check whether it is Even or Odd.')
+
+// var a = num%2;
+// if (a==0){
+// document.write(num + ' is an Even Number.')
+// }
+// else{
+// document.write(num + ' is an Odd Number.')
+// }
+
+
+
+
+
+// task 3
+
+// var myAge = +prompt('Enter My Age: ');
+// var yourAge = +prompt('Enter Your Age: ');
+
+
+// if (myAge < yourAge){
+// document.write('You are ' + (yourAge - myAge) + ' years older than me.');
+// }
+
+// else if (myAge == yourAge){
+// document.write('We Both Have Same Age.'); 
+// }
+
+//  else { 
+//      document.write('I am ' + ( myAge - yourAge ) + ' years older than you.');
+// }
+
+
+
+
+
+
+
+
+// --------- Exercise 3 Completed -----------
+
+
+
+
+
+
+
+// ASSIGNMENT 1 Completed....!
+// Chapters 1 to 16 .........! 
